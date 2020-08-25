@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from flask import Flask, request
 import requests, json
 import ast
@@ -85,18 +86,3 @@ def send_agg_to_clients():
 
 if __name__ == '__main__':
 	app.run(host='localhost', port=8000, debug=False, use_reloader=False)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
