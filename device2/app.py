@@ -63,7 +63,7 @@ def model_train():
 
 
 if __name__ == '__main__':
-	app.run(host='localhost', port=8002, debug=False, use_reloader=True)
+	app.run(host='localhost', port=8002, debug=False, use_reloader=False)
 
 
 
